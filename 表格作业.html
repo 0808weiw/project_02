@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div{
+			width: 600px;
+			margin: 100px auto;
+		}
+		table{
+			border: 1px solid black;
+			width: 600px;
+			
+			border-collapse: collapse;
+		}
+		caption{
+			font-size: 40px;
+			font-weight: bold;
+		}
+		th{
+			border: 1px solid #000;
+			background-color:#ccc;
+		}
+		tr{
+			background-color: white;
+			height: 30px;
+		}
+		td{
+			border: 1px solid green;
+			
+		}
+		td{
+			text-align: center;
+			padding: 0px;
+		}
+		td:nth-of-type(1){
+			font-size: 20px;
+			font-weight: bold;
+		}
+		img{
+			width: 30px;
+			height: 30px;
+			margin: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+			color:red;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<table>
+	<caption>今日小说排行榜</caption>
+		<tr>
+			<th>排名</th>
+			<th>关键词</th>
+			<th>趋势</th>
+			<th>今日搜索</th>
+			<th>最近七日</th>
+			<th>相关链接</th>
+			<th>类别</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>无限恐怖</td>
+			<td><img src="top.png" alt=""></td>
+			<td>123456</td>
+			<td>123456</td>
+			<td><a href="#">贴吧</a>&nbsp;<a href="#">图片</a>&nbsp;<a href="#">百科</a></td>
+			<td rowspan="3">玄<br/><br/>幻</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>黑暗血时代</td>
+			<td><img src="top.png" alt=""></td>
+			<td>123456</td>
+			<td>123456</td>
+			<td><a href="#">贴吧</a>&nbsp;<a href="#">图片</a>&nbsp;<a href="#">百科</a></td>
+			
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>死亡开端</td>
+			<td><img src="bottom.png" alt=""></td>
+			<td>123456</td>
+			<td>123456</td>
+			<td><a href="#">贴吧</a>&nbsp;<a href="#">图片</a>&nbsp;<a href="#">百科</a></td>
+			
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>宇宙大时代</td>
+			<td><img src="bottom.png" alt=""></td>
+			<td>123456</td>
+			<td>123456</td>
+			<td><a href="#">贴吧</a>&nbsp;<a href="#">图片</a>&nbsp;<a href="#">百科</a></td>
+			<td>科幻</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
